@@ -184,7 +184,8 @@ start_time = time.time()
 
 final_results = pd.DataFrame()
 config = pd.read_csv("lstm_config.csv")
-
+#pick only 1's
+config = config.loc[config['pick'] == 1]
  
 for index, row in config.iterrows():
      

@@ -1,3 +1,3 @@
-ticker,quandl_string,lstm_layers,neurons,epochs,batch_size
-MARUTI,NSE/MARUTI,2,5,2,32
-HDFCBANK,NSE/HDFCBANK,2,10,4,32
+ticker,quandl_string,lstm_layers,neurons,epochs,batch_size,pick
+MARUTI,NSE/MARUTI,2,5,2,32,1
+HDFCBANK,NSE/HDFCBANK,2,10,4,32,
